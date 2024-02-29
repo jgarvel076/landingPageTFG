@@ -1,0 +1,28 @@
+footer {
+    background-color: rgba(124, 115, 115, 0.8);
+    color: black;
+  
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-logo {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  
+  .footer-logo img {
+    width: 100px;
+  }
+  
+  .footer-images {
+    text-align: center;
+  }
+  
+  .footer-images img {
+    width: 50px;
+  }
+  
+  .footer-redes img {
+    width: 30px; 
+  }

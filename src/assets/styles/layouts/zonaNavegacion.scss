@@ -1,0 +1,22 @@
+#zonaNavegacion {
+    grid-column: 1 / 13;
+  
+    align-items: center;
+    display: flex;
+    justify-content: space-around; /* Distribuye uniformemente los elementos */
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+  }
+  
+  #zonaNavegacion div {
+      color: rgb(0, 0, 0);
+      width: 100px;
+      text-align: center;
+      font-size: 20px;
+      border-radius: 5px;
+  }
+  
+  #zonaNavegacion div:hover {
+      box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  }
+  
