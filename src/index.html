@@ -16,8 +16,24 @@
 
         <!--<include src="./views/zonaNavegacion.html"></include>-->
 
-        <div class="zonaContenido">
-        </div>
+        <div id="zonaContenido" class="zonaContenido">
+            <div class="divFormulario">
+              <form action="">
+                <div class="inputDiv">
+                  <label for="fUsuario">Usuario</label><br />
+                  <input type="text" id="fUsuario" placeholder="Introduzca su usuario" />
+                </div>
+                <div class="inputDiv">
+                  <label for="fContraseña">Contraseña</label><br />
+                  <input type="text" id="fContraseña" placeholder="Introduzca su contraseña" />
+                </div>
+                <div class="inputBotones">
+                  <button type="submit">Iniciar Sesion</button>
+                  <button type="reset">Registrarse</button>
+                </div>
+              </form>
+            </div>
+          </div>
 
         <include src="./views/footer.html"></include>        
     </body>
