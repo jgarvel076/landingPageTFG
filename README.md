@@ -1,68 +1,29 @@
-# UOC Boilerplate
+## REPOSITORIO TFG
 
-UOC Boilerplate is a starter template for the HTML and CSS Tools courses from the [Master's Program in Multimedia Applications](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) and the [Master's Program in Web App and Website Development](https://estudis.uoc.edu/ca/masters-universitaris/desenvolupament-llocs-aplicacions-web/presentacio) at the [Universitat Oberta de Catalunya](https://www.uoc.edu). It aims to provide a basic, modern frontend web development starter pack based on Parcel and including a Sass compiler, an ES6 transpiler, minifiers, an image transformer, and development tools.
+Equipo de trabajo integrado por: Julián García Velázquez
 
-This is the 3.x version of UOC Boilerplate, available since the UOC 2020-2 semester.
 
-## Requirements
+### Indica el proceso de obtención de los elementos multimedia
 
-[Node.js](http://nodejs.org/) >= 14.15.x
+Las imagenes logo y FondoContenido han sido  generadas por IA, y las demas hn sido cogidas de la pagina web [flaticon](https://www.flaticon.es/).
 
-## Getting started
 
-Clone this repository with `git clone`, or download a .zip file using the top right green button.
+### Indica qué derechos de propiedad tienen los elementos seleccionados, qué implican dichos derechos y también indica las fuentes desde donde se ha obtenido la información.
 
-Using the Terminal, navigate to the project folder and run `npm install`.
+Las imagenes de flaticon no pueden ser usadas en ninguna actividad comercial, en el siguiente enlace essta mas detallado los derechos de las imagenes --> [flaticonlicense](https://media.flaticon.com/license/license_editorial.pdf?_ga=2.152283194.2085629551.1709642310-117647312.1696504526&_gl=1*3prspk*test_ga*MTE3NjQ3MzEyLjE2OTY1MDQ1MjY.*test_ga_523JXC6VL7*MTcwOTY0MjMxMC41LjEuMTcwOTY0MjQ2MS41NS4wLjA.*fp_ga*MTE3NjQ3MzEyLjE2OTY1MDQ1MjY.*fp_ga_1ZY8468CQB*MTcwOTY0MjMxMC41LjEuMTcwOTY0MjQ2MC41Ni4wLjA.)
 
-## Features
+Las imagenes generadas por IA  no sabría decir que derecho de propiedad tiene porque no esta regulado de forma clara en ningun sitio.
 
-- Uses [Parcel v2](https://parceljs.org) module bundler.
-- NPM scripts for fast development and production build (see Commands below).
 
-### Stylesheets
+### Justifica la decisión de escoger esos formatos para esos elementos multimedia.
 
-- [Sass/SCSS](https://sass-lang.com) to CSS compilation.
-- Minification and optimization of CSS files on production builds with [`cssnano`](https://github.com/cssnano/cssnano) (`@parcel/optimizer-cssnano`).
-- [PostCSS](https://postcss.org/) features:
-  - Transpile modern CSS with [`postcss-preset-env`](https://preset-env.cssdb.org/features).
-  - Automatically add CSS prefix to unsupported properties with [`autoprefixer`](https://autoprefixer.github.io/).
+Hemos escogido los formatos png, svg y webp.
 
-### HTML
 
-- Minification and optimization of CSS files on production builds [`htmlnano`](https://github.com/posthtml/htmlnano) (`@parcel/optimizer-htmlnano`).
-- [PostHTML](https://github.com/posthtml/posthtml) features:
-  - Include partial HTML files with [`posthtml-include`](https://github.com/posthtml/posthtml-include).
+PNG: este formato ha sido elegido por su gran soprte de color, su optimización, compatibilidad con la gran mayoria de navegadores y por la calidad de imagen.
 
-### Scripts
 
-- Allow for modern JavaScript (ES201x/ES8/ES7/ES6…) which is automatically transpiled to ES5 and minifed in production builds, with [Babel](https://babeljs.io/).
+SVG: este formato se ha elegido por su escalabilidad, el poco tamaño que ocupa y su soporte para accesibilidad.
 
-### Images
 
-- Image transformation with [`@parcel/transformer-image`](https://parceljs.org/recipes/image/) (based on [`sharp`](https://sharp.pixelplumbing.com/)).
-
-### Development
-
-- Development server launch and live reloading on file changes.
-- Friendly error reporting.
-
-## How to use this boilerplate
-
-Content lives inside the `src/` folder. If you do not want to change the configuration or are unsure about what you are doing, do not edit files outside the `src/` folder.
-
-Always run the following commands during the development stage and for production builds. Please note that it is expected that all projects built with this boilerplate are compiled using `npm run build` before they are published.
-
-### Commands
-
-| Command         | Description                                                                                                                                                                                                                                                                                                                                                         |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `npm run dev`   | Runs a local web server for development and opens the browser to display it. Automatically compiles styles and scripts whenever a file in `src/` is changed, and live reloads the browser. This is what _must be run_ on the development stage.                                                                                                                     |
-| `npm run build` | Compiles and minifies and optimizes the files in the assets folder. The generated compiled and optimized files are located in the `dist/` folder. This is what _must be run_ before publishing the project. This is also the build command to be run by external deployment services such as Netlify. The publishable files are then located in the `dist/` folder. |
-| `npm run clean` | Deletes the current `/dist` folder and cache folders.                                                                                                                                                                                                                                                                                                               |
-| `npm run test`  | Displays a success message if everything is working as expected.                                                                                                                                                                                                                                                                                                    |
-
-## Need help? / Want to help out?
-
-Feel free to create a [new issue](https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues/new/) or drop me a line at jorditarrida@uoc.edu.
-
-Are you using this Boilerplate for your projects or for educational purposes? I would love to hear about it!
+WEBP: formato seleccionado por su compresion fuerte gracias a sus algoritmos de compresión, soporte de transparencias y compatibilidad con navegadores.
