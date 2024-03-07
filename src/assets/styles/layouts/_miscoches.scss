@@ -1,0 +1,63 @@
+.main__tabs {
+
+    padding: 1em;
+
+    height: 80vh;
+
+    background-color: #c7c7c7;
+    background-image: url('../images/suelotaller.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .tabs__botonesTab {
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .botonesTab__pestana {
+
+            margin-right: 1em;
+            padding: 1em;
+            cursor: pointer;
+            transition: all 0.5s ease;
+            
+        }
+        .botonesTab__pestana:hover {
+
+            background-color: grey;
+            
+            
+        }
+
+        .activo {
+            background-color:rgb(206, 168, 168);
+            border-radius: 5px;
+        }
+        .activo:hover {
+            background-color: grey;
+        }
+
+
+    }
+
+    .tabs__contenedorTexto {
+        position: relative;
+        overflow: hidden;
+        min-height: 20vh;
+
+        .contenedorTexto__bloque {
+            position: absolute;
+            top: 0;
+            opacity: 0;
+            transition: all 0.5s ease;
+        }
+
+        .activo {
+            opacity: 40;
+        }
+
+    }
+    
+
+}
